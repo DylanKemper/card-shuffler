@@ -20,8 +20,5 @@ A C# console application that creates a standard 52-card deck and displays all c
 - .NET SDK
 - C# 9.0 or later
 
-## License
-[Insert your license here]
-
 ## Author
-[Your Name]
+Dylan Kemper
