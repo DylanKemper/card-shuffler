@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Cards;
+using Decks;
 
 namespace CardShuffler
 {
@@ -11,7 +12,7 @@ namespace CardShuffler
     {
         static void Main(string[] args)
         {
-            Card card1 = new Card();
+            Deck deck = new Deck();
             Console.Read();
         }
     }

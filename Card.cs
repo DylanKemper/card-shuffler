@@ -49,9 +49,9 @@ namespace Cards
             DisplayCard();
         }
 
-        private void DisplayCard()
+        public void DisplayCard()
         {
-            Console.WriteLine($"This card is the {this.value} of {this.suit}");
+            Console.WriteLine($"{this.value} of {this.suit}");
         }
 
         /// <summary>
@@ -112,7 +112,6 @@ namespace Cards
         /// <returns>True if the input can be parsed and is within the range; otherwise, false.</returns>
         private bool IsValidInput(string input, int min, int max, out int parsedValue)
         {
-            Console.WriteLine("Validating...");
             return int.TryParse(input, out parsedValue) && parsedValue >= min && parsedValue <= max;
         }
     }
