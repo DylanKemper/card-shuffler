@@ -13,7 +13,6 @@ namespace CardShuffler
         {
             Card card1 = new Card();
             Console.Read();
-
         }
     }
 }
